@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function firstNotrepeat(str){
+        outter:for(var i =0;i<str.length;i++){
+            for(var j = i+1;j<str.length;j++){
+                if(str.charAt(i) == str.charAt(j)){
+                    continue outter;
+                }
+            }
+        return str.charAt(i)
+        }
+    }
+    console.log(firstNotrepeat("nathan"));
+    
+    
+    
+    </script>
+</body>
+</html>
